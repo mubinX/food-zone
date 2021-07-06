@@ -4,26 +4,19 @@ body{
 }
 h1{
     font-size: 60px;
-    padding-top: 50px;
 }
-h2{
+.about-recipes{
     text-align: center;
-    color: #444443;
-    padding-top: 50px;
-}
-#center{
-    text-align: center;
-    color: #444443;
-    padding-top: 20px;
 }
 .first-part{
     display: flex;
     padding-left: 80px;
+    margin-bottom: 150px;
 }
 .image{
     display: block;
     margin-left: 15%;
-    padding-bottom: 80px;
+    
 }
 .orange{
     color: #FE4C2F;
@@ -40,23 +33,44 @@ h2{
     font-weight: 500;
 }
 .para{
-    padding-bottom: 30px;
+    margin-bottom: 45px;
     color: #444443;
-    text-justify: auto;
+    text-justify: center;
 }
 .about{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
     display: flex;
-    height: 550px;
+    height: 700px;
 }
 .me{
     display: block;
     margin-left: 80%;
-    padding-top: 90px;
+    padding-top: 139px;
     
 }
 .myself{
     display: block;
     margin-left: 33%;
+    
+}
+.about-recipes{
+    color: #444443;
+    margin-bottom: 90px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.items{
+    width: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+.items{
+    display: block;
+    align-items: center;
 }

@@ -11,7 +11,7 @@ h1{
 .first-part{
     display: flex;
     padding-left: 80px;
-    margin-bottom: 150px;
+    margin-bottom: 110px;
 }
 .image{
     display: block;
@@ -47,11 +47,13 @@ h1{
     display: block;
     margin-left: 80%;
     padding-top: 139px;
+
     
 }
 .myself{
     display: block;
     margin-left: 33%;
+    margin-top: 70px;
     
 }
 .about-recipes{
@@ -64,13 +66,23 @@ h1{
     padding-left: 50px;
 }
 .items{
+    display: block;
+    padding-left: 13px;
+    padding-top: 13px;
     width: 20%;
     margin-right: 5%;
     margin-left: 5%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 15px;
 }
-.items{
-    display: block;
-    align-items: center;
+
+.first-recipe{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 200px;
 }
